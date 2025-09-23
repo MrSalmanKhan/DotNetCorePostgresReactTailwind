@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePostgresReactTailwind.API", "DotNetCorePostgresReactTailwind.API\DotNetCorePostgresReactTailwind.API.csproj", "{BD06563C-9A31-4A55-BA07-2EACF0DA95F8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyApp.Web", "Frontend\MyApp.Web\", "{44237423-7BDA-A6CD-4FE8-D146952AC3FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49252"
+		Debug.AspNetCompiler.PhysicalPath = "Frontend\MyApp.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49252\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49252"
+		Release.AspNetCompiler.PhysicalPath = "Frontend\MyApp.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49252\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49252"
+		SlnRelativePath = "Frontend\MyApp.Web\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD06563C-9A31-4A55-BA07-2EACF0DA95F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD06563C-9A31-4A55-BA07-2EACF0DA95F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD06563C-9A31-4A55-BA07-2EACF0DA95F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD06563C-9A31-4A55-BA07-2EACF0DA95F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44237423-7BDA-A6CD-4FE8-D146952AC3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44237423-7BDA-A6CD-4FE8-D146952AC3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44237423-7BDA-A6CD-4FE8-D146952AC3FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{44237423-7BDA-A6CD-4FE8-D146952AC3FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44237423-7BDA-A6CD-4FE8-D146952AC3FC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A2CBF5-62A2-454A-929E-683F0BD230F7}
+	EndGlobalSection
+EndGlobal
